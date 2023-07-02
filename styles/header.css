@@ -1,0 +1,77 @@
+
+
+.header {
+  display: grid;
+  grid-template-columns: 150px 1fr 2fr;
+  height: 150px;
+  /*background-color: lightblue;*/
+  background-color: white;
+  align-items: center;
+}
+
+.header-middle {
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+  min-width: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.header-search-box {
+  flex: 1;
+  height: 36px;
+  padding-left: 18px;
+  font-size: 15px;
+  border: 1px solid rgb(192, 192, 192);
+  border-right-width: 0;
+  border-radius: 18px 0 0 18px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  width: 0;
+}
+
+.header-search-icon {
+  height: 21px;
+  padding: 8px 20px 9px 18px;
+  background-color: rgb(250, 250, 250);
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 0 18px 18px 0;
+}
+
+.header-search-icon:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+.header-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 550px;
+  margin-left: 20px;
+}
+
+.header-right-menino, .header-right-menina, .header-right-letras,
+.header-right-topo-bolo, .header-right-inspiracao, .header-right-home {
+  font-family: Handlee;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-decoration-thickness: 3px;
+  background-color: white;
+  border: 0px solid black;
+  transition: 0.15s;
+}
+
+.header-right-topo-bolo {
+  min-width: 100px;
+}
+
+.header-right-menino:hover, .header-right-menina:hover, .header-right-letras:hover,
+.header-right-topo-bolo:hover, .header-right-inspiracao:hover, .header-right-home:hover {
+  text-decoration-color: rgb(229, 110, 205);
+  font-size: 22px;
+  cursor: pointer;
+}

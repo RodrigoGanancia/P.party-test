@@ -1,0 +1,13 @@
+.grid-themes {
+  display: grid;
+  grid-template-columns: repeat(4, 260px);
+  gap: 30px;
+  margin-left: 200px;
+}
+
+.theme {
+  margin-bottom: 50px;
+  height: 300px;
+  width: 250px;
+  background-color: aqua;
+}

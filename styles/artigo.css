@@ -1,0 +1,11 @@
+.artigo-container {
+  width: 600px;
+  height: 350px;
+  margin: 20px 0 0 250px;
+}
+
+.artigo-picture {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
